@@ -21,3 +21,4 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
+[Ссылка на страницу](https://artyemsavchenko.github.io/russian-travel/)

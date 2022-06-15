@@ -1,0 +1,40 @@
+.cover {
+  display: grid;
+  place-content: center;
+  min-height: 200px;
+  box-sizing: border-box;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  position: relative;
+  width: 100%;
+  max-width: 1184px;
+  margin: 0 auto;
+  background-image: url(../../images/cover_back320.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-width: 320px) {
+  .cover {
+    background-image: url(../../images/cover_back768.webp);
+  }
+}
+
+@media (min-width: 768px) {
+  .cover {
+    min-height: 480px;
+    background-image: url(../../images/cover_back1184.webp);
+  }
+}
+
+@media (min-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    min-height: 740px;
+  }
+}
