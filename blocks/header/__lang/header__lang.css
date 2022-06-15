@@ -1,0 +1,14 @@
+.header__lang {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.1;
+  text-decoration: none;
+  transform: translateY(5px);
+  transition: opacity .2s linear;
+}
+
+.header__lang:hover {
+  opacity: .8;
+}

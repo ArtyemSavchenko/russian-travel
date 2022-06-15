@@ -1,0 +1,19 @@
+.lead__pic {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) {
+  .lead__pic {
+    max-width: 928px;
+  }
+}
+@media (min-width: 1280px) {
+  .lead__pic {
+    max-width: 984px;
+  }
+}
