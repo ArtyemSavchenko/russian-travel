@@ -12,6 +12,7 @@
   background-image: url(../../images/cover_back320.webp);
   background-size: cover;
   background-position: center;
+  margin-bottom: 64px;
 }
 
 @media (min-width: 320px) {
@@ -24,12 +25,14 @@
   .cover {
     min-height: 480px;
     background-image: url(../../images/cover_back1184.webp);
+    margin-bottom: 88px;
   }
 }
 
 @media (min-width: 1024px) {
   .cover {
     min-height: 640px;
+    margin-bottom: 92px;
   }
 }
 
