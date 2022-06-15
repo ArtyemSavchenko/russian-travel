@@ -1,0 +1,12 @@
+.place__text-box {
+  display: grid;
+  row-gap: 25px;
+  margin: 0 16px;
+  align-self: start;
+}
+
+@media (min-width: 768px) {
+  .place__text-box {
+    margin: 0;
+  }
+}

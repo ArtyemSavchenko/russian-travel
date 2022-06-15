@@ -1,12 +1,12 @@
-.places__text-box {
+.place__link-box {
   display: grid;
-  row-gap: 25px;
+  place-content: end start;
+  row-gap: 12px;
   margin: 0 16px;
-  align-self: start;
 }
 
 @media (min-width: 768px) {
-  .places__text-box {
+  .place__link-box {
     margin: 0;
   }
 }

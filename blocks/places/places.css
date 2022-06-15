@@ -1,12 +1,15 @@
 .places {
   padding-bottom: 66px;
   max-width: 984px;
+  display: grid;
+  row-gap: 50px;
 }
 
 @media (min-width: 768px) {
   .places {
     margin: 0 24px;
     padding-bottom: 90px;
+    row-gap: 72px;
   }
 }
 
